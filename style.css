@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 56vh;
+}
+
+.header-image .header-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-image .header-img img{
+    width: 8%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content h1{
+    font-weight: bold;
+}
+
+.header-content p{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ios{
+    padding: 12px;
+    border-radius: 50px;
+    background: hsl(171, 66%, 44%);
+    border: 1.5px solid hsl(171, 66%, 44%);
+    color: #fff;
+    width: 13%;
+    transition: all ease-in-out 0.5s;
+}
+
+.ios:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background: hsla(171, 66%, 44%, 0.767);
+    border: 1.5px solid hsla(171, 66%, 44%, 0.767);
+}
+
+.mac{
+    margin-left: 15px;
+    padding: 12px;
+    border-radius: 50px;
+    background: hsl(233, 100%, 69%);
+    border: 1.5px solid hsl(233, 100%, 69%);
+    color: #fff;
+    width: 13%;
+    transition: all ease-in-out 0.5s;
+}
+
+.mac:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background: hsla(233, 100%, 69%, 0.756);
+    border: 1.5px solid hsla(233, 100%, 69%, 0.756);
+}
+
+.header-end-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-end-container h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.header-end-container p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin-top: 20px;
+}
+
+/* main body section starts here */
+.body-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-image{
+    width: 650px;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+.right-container{
+    margin-left: 100px;
+}
+
+.body-content{
+    margin-top: 20px;
+}
+
+.body-content h1{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.body-content p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+/* main body section ends here */
+
+/* middle container starts here */
+.middle-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.middle-header h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.middle-header p{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.middle-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.middle-image img{
+    width: 60%;
+}
+/* middle container ends here */
+
+/* End container starts here */
+.end-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.end-header h1{
+    font-size: 1.8rem;
+}
+
+.end-header p{
+    margin-top: 15px;
+}
+
+.end-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    margin-left: 20px;
+}
+
+.end-card img{
+    margin-top: 40px;
+}
+
+.end-card h1{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+.end-card p{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.companies img{
+    margin-left: 70px;
+    margin-right: 45px;
+    width: 10%;
+}
+
+.end-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.end-content h1{
+    font-size: 1.8rem;
+}
+
+.end-content p{
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.end-content-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.end-content-buttons .ios{
+    padding: 12px;
+    border-radius: 50px;
+    background: hsl(171, 66%, 44%);
+    border: 1.5px solid hsl(171, 66%, 44%);
+    color: #fff;
+    width: 13%;
+    transition: all ease-in-out 0.5s;
+}
+
+.end-content-buttons .ios:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background: hsla(171, 66%, 44%, 0.767);
+    border: 1.5px solid hsla(171, 66%, 44%, 0.767);
+}
+
+.end-content-buttons .mac{
+    margin-left: 15px;
+    padding: 12px;
+    border-radius: 50px;
+    background: hsl(233, 100%, 69%);
+    border: 1.5px solid hsl(233, 100%, 69%);
+    color: #fff;
+    width: 13%;
+    transition: all ease-in-out 0.5s;
+}
+
+.end-content-buttons .mac:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background: hsla(233, 100%, 69%, 0.756);
+    border: 1.5px solid hsla(233, 100%, 69%, 0.756);
+}
+/* End container ends here */
+
+/* Footer starts here */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    background: rgba(211, 211, 211, 0.242);
+    margin-top: 80px;
+    padding: 25px;
+    width: 100%;
+    height: 120px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.footer-content img{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-size: 0.9rem;
+    margin-top: 10px;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+}
+
+.footer-content a:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+    transition: all ease-in-out 0.3s;
+}
+
+.social-media{
+    margin-left: 350px;
+    margin-top: 20px
+}
+
+.social-media a{
+    margin-left: 15px;
+}
+
+.social-media a img{
+    width: 20%;
+    transition: all ease-in-out 0.4s;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.social-media img:hover{
+    background: hsl(171, 66%, 44%);
+    color: hsl(171, 66%, 44%);
+    transition: all ease-in-out 0.4s;
+}
+/* Footer ends here */
+
+/* Responsiveness Starts Here */
+@media only screen and (max-width: 390px){
+    .header-image{
+        background-image: url(./images/bg-header-mobile.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 54vh;
+    }
+
+    .header-image .header-img img{
+        width: 20%;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+
+    .header-content h1{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .header-content p{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+    .header-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .ios{
+        padding: 10px;
+        border-radius: 50px;
+        background: hsl(171, 66%, 44%);
+        border: 1.5px solid hsl(171, 66%, 44%);
+        color: #fff;
+        width: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .mac{
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 10px;
+        border-radius: 50px;
+        background: hsl(233, 100%, 69%);
+        border: 1.5px solid hsl(233, 100%, 69%);
+        color: #fff;
+        width: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .header-end-container h1{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .header-end-container p{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .left-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-image{
+        width: 250px;
+    }
+
+    .right-container{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-content h1{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .body-content p{
+        margin-top: 10px;
+        line-height: 30px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .middle-header h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .middle-header p{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .middle-image img{
+        width: 75%;
+    }
+
+    .end-header h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .end-header p{
+        margin-top: 15px;
+        font-size: 0.8rem;
+    }
+
+    .end-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end-card p{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .companies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .companies img{
+        margin-left: 70px;
+        margin-right: 45px;
+        margin-top: 50px;
+        width: 30%;
+    }
+
+    .end-content h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .end-content p{
+        text-align: center;
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+
+    .end-content-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .end-content-buttons .ios{
+        padding: 10px;
+        border-radius: 50px;
+        background: hsl(171, 66%, 44%);
+        border: 1.5px solid hsl(171, 66%, 44%);
+        color: #fff;
+        width: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .end-content-buttons .mac{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        background: hsl(233, 100%, 69%);
+        border: 1.5px solid hsl(233, 100%, 69%);
+        color: #fff;
+        width: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        background: rgba(211, 211, 211, 0.242);
+        margin-top: 80px;
+        padding: 25px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .footer-content img{
+        width: 20%;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    .footer-content a{
+        text-decoration: none;
+        color: hsl(210, 10%, 33%);
+        font-size: 0.9rem;
+        margin-top: 10px;
+        transition: all ease-in-out 0.3s;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media{
+        margin-left: 80px;
+        margin-top: 20px
+    }
+
+    .social-media a img{
+        width: 13%;
+        transition: all ease-in-out 0.4s;
+        padding: 8px;
+        border-radius: 4px;
+    }
+}
+/* Responsiveness Ends Here */
+
